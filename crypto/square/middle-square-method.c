@@ -39,7 +39,7 @@ int main()
 
 	init_seed();
 
-	printf("\n triangle ! triangle ! triangle ! \n");
+	printf("\n SQUARE ! SQUARE ! SQUARE ! \n");
 	printf("1. print next number\n");
 	printf("2. cat flag\n");
 	printf("3. quit\n");
