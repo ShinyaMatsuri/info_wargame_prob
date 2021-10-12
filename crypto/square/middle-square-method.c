@@ -24,10 +24,14 @@ uint64_t nextRand() {
 }
 
 void print_flag() {
-	FILE *f = fopen("flag", "r");
+	FILE *f = fopen("/home/shinyamatsuri/Desktop/info_wargame_prob/crypto/square/flag", "r");
+	
 	char flag[108];
+
 	fgets(flag, sizeof(flag), f);
 	printf("%s\n", flag);
+	
+	fclose(f);
 	return;
 }
 
