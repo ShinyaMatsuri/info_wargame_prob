@@ -1,0 +1,12 @@
+service lemon
+{
+	disable = no
+	flags = REUSE
+	socket_type = stream
+	protocol = tcp
+	wait = no
+	user = lemon
+	server = /home/lemon/main
+	port = 8810
+	type = UNLISTED
+}

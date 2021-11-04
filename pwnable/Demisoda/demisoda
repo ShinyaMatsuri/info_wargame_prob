@@ -1,0 +1,12 @@
+service demisoda
+{
+	disable = no
+	flags = REUSE
+	socket_type = stream
+	protocol = tcp
+	wait = no
+	user = demisoda
+	server = /home/demisoda/main
+	port = 8813
+	type = UNLISTED
+}
