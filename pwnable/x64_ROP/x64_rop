@@ -1,0 +1,12 @@
+service x64_rop
+{
+	disable = no
+	flags = REUSE
+	socket_type = stream
+	protocol = tcp
+	wait = no
+	user = x64_rop
+	server = /home/x64_rop/main
+	port = 8812
+	type = UNLISTED
+}

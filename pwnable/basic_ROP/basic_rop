@@ -1,0 +1,12 @@
+service basic_rop
+{
+	disable = no
+	flags = REUSE
+	socket_type = stream
+	protocol = tcp
+	wait = no
+	user = basic_rop
+	server = /home/basic_rop/main
+	port = 8811
+	type = UNLISTED
+}

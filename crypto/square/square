@@ -1,0 +1,12 @@
+service square
+{
+	disable = no
+	flags = REUSE
+	socket_type = stream
+	protocol = tcp
+	wait = no
+	user = square
+	server = /home/square/middle-square-method
+	port = 8801
+	type = UNLISTED
+}

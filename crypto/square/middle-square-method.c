@@ -24,14 +24,10 @@ uint64_t nextRand() {
 }
 
 void print_flag() {
-	FILE *f = fopen("/home/shinyamatsuri/Desktop/info_wargame_prob/crypto/square/flag", "r");
-	
-	char flag[108];
+	char flag[108]="INFO{Y4_kN0w_m1dDL3_SqU4R3_M3TH0d!!}\0";
 
-	fgets(flag, sizeof(flag), f);
 	printf("%s\n", flag);
-	
-	fclose(f);
+
 	return;
 }
 
