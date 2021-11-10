@@ -3,8 +3,6 @@ FROM ubuntu:16.04
 RUN apt-get update
 RUN apt-get upgrade -y
 RUN apt-get install -y xinetd
-RUN apt-get install -y gcc-multilib
-
 
 RUN groupadd basic_rop
 RUN useradd -g basic_rop basic_rop
