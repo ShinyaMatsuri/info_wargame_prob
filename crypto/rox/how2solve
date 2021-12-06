@@ -1,0 +1,8 @@
+enc -> reverse
+
+key = 12345678901234567890123456789012345678901024
+
+
+FLAG -> reverse
+
+FLAG ^ key
